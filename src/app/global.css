@@ -1,6 +1,8 @@
 :root {
     --contentMaxWidth: 1000px;
     /*--contentMaxWidth: 1440px;*/
+    --backgroundDark: #181817;
+    --backgroundLight: #F5F5F5;
     --black: #000000;
     --gray7: #fafafa;
     --gray6: #262626;

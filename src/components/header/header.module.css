@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 10px;
+    padding-left: 5px;
+    width: 100%;
+}
+
+.link {
+    color: var(--black);
+    text-decoration: none;
+
+    padding: 8px 20px 7px 20px ;
+    margin-right: 5px;
+
+    border: solid 2px transparent;
+    border-radius: 8px;
+    transition: border 0.3s ease;
+}
+
+.link:hover {
+    border-color: var(--lightPurple);
+}
+
+.active {
+    border-color: var(--lightPurple);
+}
+
+.loginBtn {
+    color: var(--gray7);
+    text-decoration: none;
+
+    margin: 10px;
+    padding: 8px 20px 7px 20px ;
+    background-color: var(--lightPurple);
+    border-radius: 8px;
+
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.loginBtn:hover {
+    background-color: var(--purple);
+}
+
+

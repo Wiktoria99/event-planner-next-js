@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Header from '@/components/header/header';
 import styles from './layout.module.css';
 import './global.css';
+import Footer from '@/components/footer/footer';
 
 export const metadata: Metadata = {
   title: 'Event Planner App',
@@ -19,6 +20,7 @@ export default function RootLayout({
         <div className={styles.container}>
           <Header />
           {children}
+          <Footer />
         </div>
       </body>
     </html>

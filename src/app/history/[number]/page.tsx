@@ -1,15 +1,21 @@
-import React, { FC } from 'react';
+import React, { Suspense } from 'react';
+import delayedString from '@/app/history/data';
 
 interface PageProps {
-    params: { [key: string]: string };
+  params: { [key: string]: string };
 }
 
-const Page: FC<PageProps> = ({ params }) => {
-    return (
-        <div>
-            <p>Event nr {params.number}</p>
-        </div>
-    );
-};
+async function Page({ params }: PageProps) {
+  const result = await delayedString();
+  return (
+    <div>
+      <Suspense fallback={<p>Loading</p>}>
+        <p>
+          Event nr {params.number} {result}
+        </p>
+      </Suspense>
+    </div>
+  );
+}
 
 export default Page;
