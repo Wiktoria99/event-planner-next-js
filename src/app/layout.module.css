@@ -17,6 +17,7 @@
     width: 100%;
     max-width: var(--contentMaxWidth);
     margin: auto;
+    padding-bottom: 50px;
 
     overflow: hidden;
 }
