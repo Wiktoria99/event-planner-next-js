@@ -1,10 +1,8 @@
 import { dummyPresentations } from '../../../../../dummy-presentations';
 
-type PageProps = {
-  params: { slug: string };
-};
+type PageProps = Promise<{ slug: string }>;
 
-export default async function PresentationPage({ params }: PageProps) {
+export default async function PresentationPage({ params }: { params: PageProps }) {
   const { slug } = await params;
 
   const presentation = dummyPresentations.find((p) => p.id === slug);
