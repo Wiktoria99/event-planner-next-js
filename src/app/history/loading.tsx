@@ -7,7 +7,7 @@ interface PageProps {
 const LoadingPage: FC<PageProps> = () => {
   return (
     <div>
-      <p>Loading Events</p>
+      <p>Loading Presentations</p>
     </div>
   );
 };
