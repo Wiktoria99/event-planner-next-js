@@ -9,7 +9,7 @@ export default function CheckNextEventSection() {
         <Link href={'/next-event'}>
           <button className={`${styles.primaryBtn} ${styles.btn}`}>Next event</button>
         </Link>
-        <Link href={'/history'}>
+        <Link href={'/history/overview'}>
           <button className={`${styles.secondaryBtn} ${styles.btn}`}>Past events</button>
         </Link>
       </div>

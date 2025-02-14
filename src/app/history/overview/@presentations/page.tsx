@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { dummyPresentations } from '../../../dummy-presentations';
+import { dummyPresentations } from '../../../../../dummy-presentations';
 import PresentationCard from '@/components/presentation/presentation';
 import PresentationsGridWrapper from '@/components/presentation/presentationsGridWrapper';
 

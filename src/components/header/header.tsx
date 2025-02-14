@@ -11,7 +11,7 @@ const Header = () => {
           Start
         </Link>
         <ActiveButton href="/next-event" label="Next Event" />
-        <ActiveButton href="/history" label="History" />
+        <ActiveButton href="/history/overview" label="History" />
         <ActiveButton href="/statistics" label="Statistics" />
       </nav>
       <LoginButton />
