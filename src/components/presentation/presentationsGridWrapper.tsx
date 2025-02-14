@@ -1,5 +1,5 @@
 import styles from './presentation.module.css';
 
-export default function PresentationsWrapper({ children }: React.PropsWithChildren) {
+export default function PresentationsGridWrapper({ children }: React.PropsWithChildren) {
   return <div className={styles.containerWrapper}>{children}</div>;
 }
