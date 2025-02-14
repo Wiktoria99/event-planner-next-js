@@ -1,4 +1,4 @@
-import { dummyPresentations } from '../../../../../dummy-presentations';
+import { dummyPresentations } from '@/data/dummy-presentations';
 
 type PageProps = Promise<{ slug: string }>;
 
