@@ -1,5 +1,6 @@
 export type Event = {
   id: string;
-  eventDate: string;
+  name: string;
+  date: string;
   presentationsId: string[];
 };

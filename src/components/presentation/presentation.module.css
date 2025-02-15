@@ -14,13 +14,13 @@
 .paperContainer {
     padding: 24px;
     border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     transition: box-shadow 0.3s ease-in-out;
     height: 300px;
 }
 
 .paperContainer:hover {
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
 .paperContainer h3 {

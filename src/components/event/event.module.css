@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 20px 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+    min-height: 50px;
+    width: 93%;
+    margin: auto auto 10px auto;
+}
+
+.container:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.container p {
+    font-size: 18px;
+}
+
+.container h3 {
+    font-size: 18px;
+}
