@@ -10,7 +10,7 @@ export default function NoNextEventSection() {
       <div className={styles.text}>
         <h1>We’re planning something exciting!</h1>
         <p>While you wait, check out our past events and presentations! 🔥</p>
-        <Link href={'/history'}>
+        <Link href={'/history/overview'}>
           <button className={`${styles.secondaryBtn} ${styles.btn}`}>Past events</button>
         </Link>
       </div>
