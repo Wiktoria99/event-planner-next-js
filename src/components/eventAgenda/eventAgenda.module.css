@@ -1,0 +1,55 @@
+.container {
+    padding: 14px 20px 15px 20px;
+    width: 100%;
+}
+
+.container p {
+    font-size: 18px;
+    margin-left: 80px;
+}
+
+.container h2 {
+    margin-left: 80px;
+    font-size: 18px;
+}
+
+.presentationContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    margin-top: 50px;
+}
+
+.presentationBox {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+
+    margin: auto;
+    max-width: 800px;
+    padding: 0 20px 0 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.presentationBox:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.time h3 {
+    line-height: 5px;
+}
+
+.header {
+    color: var(--lightPurple);
+    text-align: center;
+}

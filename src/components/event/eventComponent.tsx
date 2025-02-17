@@ -9,6 +9,7 @@ export default function EventComponent({ event }: { event: Event }) {
     day: 'numeric'
   };
   const formattedDate: string = date.toLocaleDateString(undefined, options);
+
   return (
     <div className={styles.container}>
       <h3>{event.name}</h3>
